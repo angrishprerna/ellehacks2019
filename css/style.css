@@ -6,6 +6,7 @@ html,
 body {
   font-family: 'Source Sans Pro';
   text-align: center;
+
 }
 
 * {
@@ -51,23 +52,42 @@ nav ul li a:hover {
   min-height: 55vh;
   font-family: 'Source Sans Pro';
 
+
 }
 
 #intro-section{
   text-align: center;
-  background: #C8F7C5;
+  background: #66a4e2;
+  font-color: white;
 
 }
 
+#intro-info{
+  font-color: white;
+  min-height: 800px;
+  
+
+}
+#intro-info {
+  font-color: white;
+  min-height: 800px;
+  font-size: 20px;
+  top-margin:100px;
+
+}
+
+
 #funct-section{
   text-align:center;
+  background: #66a4e2;
+  min-height: 500px;
   margin: 30px;
 }
 
 #dl-section{
   text-align:center;
-  background: #C8F7C5;
-  margin: 30px;
+  background: #66a4e2;
+  min-height: 500px;
 
 }
 
@@ -123,6 +143,11 @@ footer a {
   background-color: #555;
 }
 
+textarea{
+  width: 380px;
+  height: 200px;
+  margin:40px;
+}
 @media only screen and (max-width: 367px) {
 
   .contact-details {
