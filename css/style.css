@@ -48,7 +48,6 @@ nav ul li a:hover {
 
 .section{
   top: 0;
-  background: #e0ebe8;
   min-height: 55vh;
   font-family: 'Source Sans Pro';
 
@@ -57,15 +56,18 @@ nav ul li a:hover {
 #intro-section{
   text-align: center;
   background: #C8F7C5;
+
 }
 
 #funct-section{
   text-align:center;
+  margin: 30px;
 }
 
 #dl-section{
   text-align:center;
   background: #C8F7C5;
+  margin: 30px;
 
 }
 
@@ -101,6 +103,24 @@ footer {
 
 footer a {
   color: white;
+}
+
+.row{
+  display: flex;
+}
+
+.column {
+  flex:50%;
+}
+
+#intro-info{
+  margin:40px;
+}
+
+.square {
+  height: 550px;
+  width: 50px;
+  background-color: #555;
 }
 
 @media only screen and (max-width: 367px) {
