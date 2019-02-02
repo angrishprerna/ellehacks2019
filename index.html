@@ -10,20 +10,27 @@
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
 	<link href=' http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script src="/functions.js"></script>
+
 	<script>
 		function showSentiment1(){
 			var isentence = $("#sentence").val(); // input of textbox in isentence
 			$("#sentiment").html(isentence);
 
 		}
+
 		function showSentiment2(str) {
 			var lng = str.length;
 			document.getElementById("sentiment2").innerHTML = lng + ' out of 400 characters';
 		}
 
-
 	</script>
-	
+
+
+
+
 </head>
 
 <head>
@@ -53,13 +60,21 @@
 	<div id="funct-section">
   		<h2 class="work-header">How does it work?</h2>
   		<div>
-
+  				<div class="square" style="opacity:0">
+  					<!-- insert text here -->
+  				</div>
   				<textarea id="sentence" onkeyup="showSentiment2(this.value)"></textarea>
   				<br><br>
   				<input type="button" value="Submit" onclick="showSentiment1();">
   				<br> <br>
   				<label id="sentiment"></label>
   				<span id="sentiment2"></span>
+
+  				<div id='dialogue' class='right-dialogue talk-bubble tri-right left-in'>
+                    <div class='talktext'>
+                        <p>Click me!</p>
+                    </div>
+                </div>
 
   		</div>
 	</div>
