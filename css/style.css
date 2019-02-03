@@ -18,18 +18,18 @@ p{
   line-height: 150%;
 }
 
-button {
-  width: autopx;
-  height: 30px;
-  margin: 40px;
-}
+
 
 
 nav ul {
+  font-size:23px;
   text-align: right;
   position: fixed;
+  top:0px;
   width: 100%;
   background-color: #4a8ef9;
+  z-index: 500;
+  height:90px;
 }
 
 nav ul li {
@@ -49,22 +49,6 @@ nav ul li a:hover {
   color: white;
 }
 
-.sectiona{
-  top: 0;
-  min-height: 55vh;
-  font-family: 'Source Sans Pro';
-  background-color: white;
-  margin:60px;
-}
-
-.sectionb{
-  top: 0;
-  min-height: 55vh;
-  font-family: 'Source Sans Pro';
-  background-color:white;
-  margin:60px;
-}
-
 #intro-section{
   background: white;
   font-family: 'Source Sans Pro';
@@ -77,16 +61,28 @@ nav ul li a:hover {
   top-margin:100px;
   left: 900px;
   font-family: 'Source Sans Pro';
+}
 
-
+#funct-info {
+  position: absolute;
+  min-height: 600px;
+  font-size: 20px;
+  top-margin:100px;
+  left: 300px;
+  font-family: 'Source Sans Pro';
+  text-align: left;
 }
 
 #end-info {
+  position: absolute;
+  right: 400px;
   min-height: 800px;
+  max-width: 500px;
   font-size: 20px;
   top-margin:100px;
   font-family: 'Source Sans Pro';
   text-align: left;
+
 }
 
 #funct-section{
@@ -94,24 +90,18 @@ nav ul li a:hover {
   background: white;
   min-height: 600px;
   font-size:20px;
-  top-margin:180px;
   font-family: 'Source Sans Pro';
-
 }
 
 #dl-section{
-  margin: 50px;
+  min-height:810px;
   background-color: white;
-  min-height: 400px;
   text-align: center;
-  font-size:20px;
-  font-family: 'Source Sans Pro';
-
 }
 
 
 .header {
-  padding: 160px 0 110px;
+  padding: 100px 0 110px;
 }
 
 .contact-details:hover {
@@ -120,6 +110,10 @@ nav ul li a:hover {
 }
 
 footer {
+  position:absolute;
+  font-size: 18px;
+  width:100%;
+
   padding: 20px;
   background: #4a8ef9;
   color: white;
@@ -142,8 +136,6 @@ footer a {
 #intro-info{
   margin:40px;
 }
-
-
 
 textarea{
   width: 380px;
@@ -168,7 +160,7 @@ textarea{
 
 
 .talk-bubble {
-    position: absolute;
+  position: absolute;
   width: 200px;
   height: auto;
   background-color: #eee;
@@ -182,28 +174,54 @@ textarea{
   height: 150px;  
 }
 
-#download-button {
-  font-size:30px;
-  margin: 30px;
-}
-
-#download-button2 {
-  font-size:30px;
-  margin: 30px;
-}
-
 .line{
   color: #73AD21;
 }
 
 .text-column{
   max-width: 600px;
-
 }
 
 .video {
   margin-left: 100px;
   margin-top: 40px;
 }
+
+#real-demo{
+  position: absolute;
+  right: 500px;
+}
+
+#app-name{
+  font-size: 50px;
+  display: inline;
+}
+
+#special-blue{
+  color:#73AD21;
+}
+
+.button {
+  margin: 40px;
+  font-size:30px;
+}
+
+#download-button {
+  font-size:25px;
+  margin: 30px;
+}
+
+#download-button2 {
+
+  font-size:30px;
+  margin: 40px;
+  bottom: 30px;
+}
+#button2{
+  position: absolute;
+  left: 350px;
+  bottom:-600px;
+}
+
 
 </style>

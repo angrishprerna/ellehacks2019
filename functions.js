@@ -6,11 +6,11 @@
 
 function showSentiment2(str) {
 	var lng = str.length;
-	var isentence = $("#sentence").val();
-	$("#sentiment").html(isentence);
-	$("#popup").css("opacity","0.8")
+	//var isentence = $("#sentence").val();
+	//$("#sentiment").html(isentence);
+	//$("#popup").css("opacity","0.8")
 
-	document.getElementById("sentiment2").innerHTML = lng + ' out of 400 characters';
+	//document.getElementById("sentiment2").innerHTML = lng + ' out of 400 characters';
 }
 
 
@@ -67,7 +67,7 @@ console.log(_result);
         	} else {
         		msg="Highly likely to be perceived as aggressive"
         	}
-        	document.getElementById("popup").innerHTML = msg;
+        	document.getElementById("sentiment").innerHTML = msg;
         } else {
         	alert('ERROR')
         }

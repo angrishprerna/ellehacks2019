@@ -28,36 +28,43 @@
 <div class="section" >
 	<div id="intro-section" class="inner row">
 
+
 			<div class="column video">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/wfveUs4BJa4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+				<iframe width="600" height="370" src="https://www.youtube.com/embed/wfveUs4BJa4?rel=0&autoplay=1&loop=1&playlist=PLX_JuJSLQEmXXhSl98miFW4a1dR3MkH79&" frameborder="0" allow="accelerometer; autoplay; loop; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>x
+
+				
 			</div>
 
 			<div id="intro-info" class="column info text-column">
-		  <h1>Hey I'm App Name.</h1>
+		  <h1 id="app-name">Hey I'm <span id="special-blue">App Name</span>.</h1>
 		  <br><hr width=20% align="center">
-		  <p>Get a free sentiment check on your messages. App Name is trained to detect the aggressiveness of a sentence of text. Each sentence is graded based on the choice of words used with a helpful comment that informs the user of a possible perception of hostility from the statement. </p>
+		  <p>Get a free sentiment check on your messages. <span id="special-blue">App Name</span> is trained to detect the aggressiveness of a sentence of text. Each sentence is graded based on the choice of words used with a helpful comment that informs the user of a possible perception of hostility from the statement. </p>
 		  	</div>
 	</div>
 </div>
 
 <div class="section">
 	<div id="funct-section" class="inner row">
-				<div class="column text-column">
-		  			<h1 class="work-header">How do I work?</h1>
+				<div id="funct-info"class="column text-column">
+		  			<h1 class="work-header">How does <span id="special-blue">App Name</span> work?</h1>
 		  			<br><hr width=20% align="center">
-		  			<p> App Name was created using a Natural Language API in the Google Cloud Platform. This API provides powerful machine learning models related to Sentiment Analysis, that was filtered to allow interpretation of text in relation to aggression. This interpretation was then formatted into a user friendly structure for the user.</p>
+		  			<p> <span id="special-blue">App Name</span> was created using a Natural Language API in the Google Cloud Platform. This API provides powerful machine learning models related to Sentiment Analysis, that was filtered to allow interpretation of text in relation to aggression. This interpretation was then formatted into a user friendly structure for the user.</p>
 		  		</div>
 
-		  		<div class="column">
+		  		<div id="real-demo" class="column">
 		  			<div class="square rcouners" id="popup" style="opacity:0">
 		  				<!-- insert text here -->
 		  			</div>
-
-		  				<textarea id="sentence" placeholder="Enter a sentence here..."onkeyup="showSentiment2(this.value)"></textarea>
-		  				<br><br>
-		  				<input id="download-button" class="btn btn-info c-button" type="button" value="Submit" onclick="showMessage();">
+		  				<!--  -->
+		  				<textarea id="sentence" placeholder="Enter a sentence here..." onkeyup="showSentiment2(this.value)" ></textarea>
 		  				<br><br>
 		  				<label id="sentiment"></label>
+		  				<br><br>
+		  				<input id="download-button" class="btn btn-info button" type="button" value="Submit" onclick="showMessage();">
+		  				<br><br>
+		  				
 		  				<span id="sentiment2"></span>
 		  		</div>
 	</div>
@@ -66,16 +73,16 @@
 <div class="section">
 	<div id="dl-section" class="inner row ">
 
-		  		<div class="column">
+		  		<div id="button2" class="column">
 			    	<form action="https://chrome.google.com/webstore/">
-			    		<button id="download-button2" class="btn btn-success c-button" type="button" >Add to Chrome</button>
+			    		<button id="download-button2" class="btn btn-success button" type="button" >Add to Chrome <br><span style="font-size:23px"> (its free!)</span></button>
 					</form>
 		  		</div>
 
 				<div class="column" id="end-info">
-		  			<h1 class="work-header"> Why App Name? </h1>
+		  			<h1 class="work-header"> Why<span id="special-blue"> App Name</span>? </h1>
 		  			<br><hr width=20% align="center" class="line">
-		  			<p> App Name was created to address the growing dependence of society on digital forms of communication. Today's youth spends an average of 9 hours everyday consuming and utilizing online media per day. As a result, a large portion of such an individual's development will be based on their experiences and interations using text. App Name hopes to bring an awareness of the possible implications and consequences of an individual's words on other members of society. </p>
+		  			<p> <span id="special-blue">App Name</span> was created to address the growing dependence of society on digital forms of communication. Today's youth spends an average of 9 hours everyday consuming and utilizing online media per day. As a result, a large portion of such an individual's development will be based on their experiences and interations using text. <span id="special-blue">App Name</span> hopes to bring an awareness of the possible implications and consequences of an individual's words on other members of society. </p>
 		  		</div>
 	</div>
 </div>
