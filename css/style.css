@@ -23,11 +23,12 @@ p{
 
 nav ul {
   font-size:23px;
-  text-align: right;
+  text-align: left;
   position: fixed;
   top:0px;
   width: 100%;
-  background-color: #4a8ef9;
+  background-color: white;
+  font-color: black;
   z-index: 500;
   height:90px;
 }
@@ -40,13 +41,26 @@ nav ul li {
   font-family: 'Source Sans Pro';
 }
 
+#icon{
+  text-align: left;
+  height: 50px;
+  width: 50px;
+  margin:20px;
+}
+
+
+
 nav ul li a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
 nav ul li a:hover {
   color: white;
+}
+
+.bigger{
+  font-size:50px;
 }
 
 #intro-section{
@@ -115,7 +129,7 @@ footer {
   width:100%;
 
   padding: 20px;
-  background: #4a8ef9;
+  background: #66a4e2;
   color: white;
   line-height: 40px;
   font-family: 'Source Sans Pro';
@@ -198,7 +212,7 @@ textarea{
 }
 
 #special-blue{
-  color:#73AD21;
+  color:#66a4e2;
 }
 
 .button {
