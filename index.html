@@ -13,6 +13,18 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="/functions.js"></script>
 
+	<script>
+		function showSentiment1(){
+			var isentence = $("#sentence").val(); // input of textbox in isentence
+			$("#sentiment").html(isentence);
+		}
+
+		function showSentiment2(str) {
+			var lng = str.length;
+			$("#popup").css("opacity", "0.8");
+			document.getElementById("sentiment2").innerHTML = lng + ' out of 400 characters';
+		}
+	</script>
 
 </head>
 
@@ -25,13 +37,14 @@
   </ul>
 </nav>
 
-<div id="intro-section" >
-	<div class="inner section row">
+<div class="section" >
+	<div id="intro-section" class="inner section row">
 			<div class="column">
 				<!--<div class="square"></div>-->
 			</div>
 			<div id="intro-info" class="column">
 		  <h1>Hey i'm App Name.</h1>
+		  <hr width=50% align="center">
 		  <p>Get a free sentiment check on your messages. App Name is trained to detect the aggressiveness of a sentence of text.</p>
 		  	</div>
 	</div>

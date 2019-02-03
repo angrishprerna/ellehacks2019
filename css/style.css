@@ -14,6 +14,11 @@ body {
   padding: 0;
 }
 
+
+p{
+  margin: 40px;
+}
+
 button {
   width: autopx;
   height: 30px;
@@ -24,14 +29,13 @@ button {
   color: green;
 }
 
-#
 
 nav ul {
 
   text-align: right;
   position: fixed;
   width: 100%;
-  background-color: #e0ebe8;
+  background-color: white;
 }
 
 nav ul li {
