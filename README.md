@@ -1,5 +1,5 @@
-# ElleHacks2019 - Angry Words
-Angry Words is an application using sentiment analysis to suggest the aggression level of the text. It uses the Cloud Natural Language API by Google and Google Cloud Platform for the backend. Current implementation provides a Proof-of-Concept by providing a web interface to interact with the application. We wish to extend this idea to provide a solution for mental health issues by reducing cyber bullying, child care - by preventing parents' from using aggressive phrases/conversation in front of the kids etc.
+# ElleHacks2019 - Friendlier
+Friendlier is an application using sentiment analysis to suggest the aggression level of the text. It uses the Cloud Natural Language API by Google and Google Cloud Platform for the backend. Current implementation provides a Proof-of-Concept by providing a web interface to interact with the application. We wish to extend this idea to provide a solution for mental health issues by reducing cyber bullying, child care - by preventing parents' from using aggressive phrases/conversation in front of the kids etc.
 
 ## Getting Started
 Open index.html and get started!
