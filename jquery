@@ -1,0 +1,20 @@
+jQuery.ajax({
+    type        : "POST",
+    url         : `https://language.googleapis.com/v1/documents:analyzeSentiment?key=${API_KEY}`, 
+    contentType : "application/json; charset=utf-8",
+    data        : 
+                    JSON.stringify(request),
+    success     : function(_result){ 
+
+        if (_result) { 
+            alert('SUCCESS', _result);
+console.log(_result)
+        } else {
+            alert('ERROR');
+        }
+    },
+
+    error       : function(_result){
+
+    }
+});
