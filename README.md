@@ -5,9 +5,9 @@ Angry Words is an application using sentiment analysis to suggest the aggression
 Open index.html and get started.
 
 ## Authors
-Alice Ip
-Betty Lam
-Prerna Angrish
+Alice Ip </br>
+Betty Lam </br>
+Prerna Angrish </br>
 Shuchita Singh
 
 ## Acknowledgments
