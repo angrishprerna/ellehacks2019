@@ -1,5 +1,3 @@
-
-
 <style>
 
 html,
@@ -16,7 +14,8 @@ body {
 
 
 p{
-  margin: 40px;
+  margin-top: 40px;
+  line-height: 150%;
 }
 
 button {
@@ -25,17 +24,12 @@ button {
   margin: 40px;
 }
 
-.intro p {
-  color: green;
-}
-
 
 nav ul {
-
   text-align: right;
   position: fixed;
   width: 100%;
-  background-color: white;
+  background-color: #4a8ef9;
 }
 
 nav ul li {
@@ -47,12 +41,12 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #008080;
+  color: white;
   text-decoration: none;
 }
 
 nav ul li a:hover {
-  color: green;
+  color: white;
 }
 
 .sectiona{
@@ -60,63 +54,56 @@ nav ul li a:hover {
   min-height: 55vh;
   font-family: 'Source Sans Pro';
   background-color: white;
+  margin:60px;
 }
 
 .sectionb{
   top: 0;
   min-height: 55vh;
   font-family: 'Source Sans Pro';
-  background-color:#4a8ef9;
+  background-color:white;
+  margin:60px;
 }
 
 #intro-section{
-  text-align: center;
-  background: #4a8ef9;
-  font-color: white;
+  background: white;
   font-family: 'Source Sans Pro';
-
 }
 
 #intro-info {
-  font-color: white;
   min-height: 800px;
   font-size: 20px;
   top-margin:100px;
   font-family: 'Source Sans Pro';
-
+  text-align: left;
 }
 
+#end-info {
+  min-height: 800px;
+  font-size: 20px;
+  top-margin:100px;
+  font-family: 'Source Sans Pro';
+  text-align: left;
+}
 
 #funct-section{
-  text-align:center;
-  background: #4a8ef9;
+ text-align: center;
+  background: white;
   min-height: 600px;
   font-size:20px;
   top-margin:180px;
   font-family: 'Source Sans Pro';
+
 }
 
-.dl-section{
+#dl-section{
   margin: 50px;
   background-color: white;
-  min-height: 500px;
+  min-height: 400px;
   text-align: center;
   font-size:20px;
   font-family: 'Source Sans Pro';
 
-}
-
-
-@media only screen and (max-width: 500px) {
-  nav ul {
-    text-align: center;
-  }
-  nav ul li {
-    margin: 20px;
-  }
-  .project {
-    margin: 40px 0;
-  }
 }
 
 
@@ -152,9 +139,6 @@ footer a {
 #intro-info{
   margin:40px;
 }
-#dl-button{
-  margin:50px;
-}
 
 
 
@@ -176,7 +160,7 @@ textarea{
 }
 
 .inner{
-  padding: 40px;
+  padding: 100px;
 }
 
 
@@ -193,6 +177,24 @@ textarea{
   padding: 20px; 
   width: 200px;
   height: 150px;  
+}
+
+#download-button {
+  font-size:30px;
+  margin: 30px;
+}
+
+#download-button2 {
+  font-size:30px;
+  margin: 30px;
+}
+
+.line{
+  color: #73AD21;
+}
+
+.text-column{
+  max-width: 600px;
 }
 
 </style>
