@@ -130,6 +130,7 @@ footer {
   background: #4a8ef9;
   color: white;
   line-height: 40px;
+  font-family: 'Source Sans Pro';
 }
 
 footer a {
@@ -157,6 +158,8 @@ textarea{
   width: 380px;
   height: 200px;
   margin-top:130px;
+  padding:20px;
+  font-size: 20px;
 }
 
 .square {
@@ -166,6 +169,10 @@ textarea{
   width: 300px;
   background-color: #eee;
   z-index:99;
+}
+
+.inner{
+  padding: 40px;
 }
 
 

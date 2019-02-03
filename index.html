@@ -11,23 +11,9 @@
 	<link href=' http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
 	<script src="/functions.js"></script>
 
-	<script>
-		function showSentiment1(){
-			var isentence = $("#sentence").val(); // input of textbox in isentence
-			$("#sentiment").html(isentence);
 
-		}
-
-		function showSentiment2(str) {
-			var lng = str.length;
-			$("#popup").css("opacity", "0.8");
-			document.getElementById("sentiment2").innerHTML = lng + ' out of 400 characters';
-		}
-
-	</script>
 </head>
 
 <body>
@@ -39,47 +25,51 @@
   </ul>
 </nav>
 
-<div id="intro-section" class="section row">
-	<div class="column">
-		<!--<div class="square"></div>-->
+<div id="intro-section" >
+	<div class="inner section row">
+			<div class="column">
+				<!--<div class="square"></div>-->
+			</div>
+			<div id="intro-info" class="column">
+		  <h1>Hey i'm App Name.</h1>
+		  <p>Get a free sentiment check on your messages. App Name is trained to detect the aggressiveness of a sentence of text.</p>
+		  	</div>
 	</div>
-	<div id="intro-info" class="column">
-  <h1>Hey i'm App Name.</h1>
-  <p>Get a free sentiment check on your messages.</p>
-  	</div>
 </div>
 
 <div class="section">
-	<div id="funct-section" class="section row">
-		<div class="column">
-  			<h1 class="work-header">How do I work?</h1>
-  		</div>
+	<div id="funct-section" class="inner section row">
+				<div class="column">
+		  			<h1 class="work-header">How do I work?</h1>
+		  		</div>
 
-  		<div class="column">
-  			<div class="square" id="popup" style="opacity:0">
-  				<!-- insert text here -->
-  			</div>
+		  		<div class="column">
+		  			<div class="square rcouners" id="popup" style="opacity:0">
+		  				<!-- insert text here -->
+		  			</div>
 
-  				<textarea id="sentence" onkeyup="showSentiment2(this.value)"></textarea>
-  				<br><br>
-  				<input type="button" value="Submit" onclick="showSentiment1();">
-  				<br> <br>
-  				<label id="sentiment"></label>
-  				<span id="sentiment2"></span>
-  		</div>
+		  				<textarea id="sentence" placeholder="Enter a sentence here..."onkeyup="showSentiment2(this.value)"></textarea>
+		  				<br><br>
+		  				<input type="button" value="Submit" onclick="showSentiment1();">
+		  				<br> <br>
+		  				<label id="sentiment"></label>
+		  				<span id="sentiment2"></span>
+		  		</div>
 	</div>
 </div>
 
 <div class="sectiona">
-	<div  class="dl-section" id="download">
-    	<h2 class="work-header">Try it out!</h2>
+	<div class="inner">
+			<div  class="dl-section" id="download">
+		    	<h2 class="work-header">Try it out!</h2>
 
-    	<form action="https://chrome.google.com/webstore/">
-    		<button type="submit" id="dl-button">Add to Chrome</button>
-		</form>
+		    	<form action="https://chrome.google.com/webstore/">
+		    		<button type="submit" id="dl-button">Add to Chrome</button>
+				</form>
 
-    	
-    </div>
+		    	
+		    </div>
+	</div>
 </div>
 
 <footer>
