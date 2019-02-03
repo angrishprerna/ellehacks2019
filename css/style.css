@@ -71,11 +71,14 @@ nav ul li a:hover {
 }
 
 #intro-info {
+  position: absolute;
   min-height: 800px;
   font-size: 20px;
   top-margin:100px;
+  left: 900px;
   font-family: 'Source Sans Pro';
-  text-align: left;
+
+
 }
 
 #end-info {
@@ -195,6 +198,12 @@ textarea{
 
 .text-column{
   max-width: 600px;
+
+}
+
+.video {
+  margin-left: 100px;
+  margin-top: 40px;
 }
 
 </style>
