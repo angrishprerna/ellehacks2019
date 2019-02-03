@@ -23,25 +23,18 @@
 
 		function showSentiment2(str) {
 			var lng = str.length;
+			$("#popup").css("opacity", "0.8");
 			document.getElementById("sentiment2").innerHTML = lng + ' out of 400 characters';
 		}
 
 	</script>
-
-
-
-
-</head>
-
-<head>
-<title>App Name</title>
 </head>
 
 <body>
 
 <nav>
   <ul id='navbar'>
-    <li><a href="#about-section">About</a></li>
+    <li><a href="#download">Download</a></li>
 
   </ul>
 </nav>
@@ -57,37 +50,40 @@
 </div>
 
 <div class="section">
-	<div id="funct-section">
-  		<h2 class="work-header">How does it work?</h2>
-  		<div>
-  				<div class="square" style="opacity:0">
-  					<!-- insert text here -->
-  				</div>
+	<div id="funct-section" class="section row">
+		<div class="column">
+  			<h1 class="work-header">How do I work?</h1>
+  		</div>
+
+  		<div class="column">
+  			<div class="square" id="popup" style="opacity:0">
+  				<!-- insert text here -->
+  			</div>
+
   				<textarea id="sentence" onkeyup="showSentiment2(this.value)"></textarea>
   				<br><br>
   				<input type="button" value="Submit" onclick="showSentiment1();">
   				<br> <br>
   				<label id="sentiment"></label>
   				<span id="sentiment2"></span>
-
-  				<div id='dialogue' class='right-dialogue talk-bubble tri-right left-in'>
-                    <div class='talktext'>
-                        <p>Click me!</p>
-                    </div>
-                </div>
-
   		</div>
 	</div>
 </div>
 
-<div class="section">
-	<div id="dl-section">
+<div class="sectiona">
+	<div  class="dl-section" id="download">
     	<h2 class="work-header">Try it out!</h2>
+
+    	<form action="https://chrome.google.com/webstore/">
+    		<button type="submit" id="dl-button">Add to Chrome</button>
+		</form>
+
+    	
     </div>
 </div>
 
 <footer>
-  <p>&copy; Created for Ellehacks 2019</p>
+  <p>&copy; Created for Ellehacks 2019 By: Prerna Angrish, Shuchita Singhm, Betty Lam, Alice Ip</p>
 </footer>
 
 </body>

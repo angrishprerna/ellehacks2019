@@ -6,7 +6,7 @@ html,
 body {
   font-family: 'Source Sans Pro';
   text-align: center;
-
+  margin: 0 100px 0 100px;
 }
 
 * {
@@ -14,7 +14,11 @@ body {
   padding: 0;
 }
 
-
+button {
+  width: autopx;
+  height: 30px;
+  margin: 40px;
+}
 
 .intro p {
   color: green;
@@ -47,47 +51,54 @@ nav ul li a:hover {
   color: green;
 }
 
-.section{
+.sectiona{
   top: 0;
   min-height: 55vh;
   font-family: 'Source Sans Pro';
+  background-color: white;
+}
 
-
+.sectionb{
+  top: 0;
+  min-height: 55vh;
+  font-family: 'Source Sans Pro';
+  background-color:#4a8ef9;
 }
 
 #intro-section{
   text-align: center;
-  background: #66a4e2;
+  background: #4a8ef9;
   font-color: white;
+  font-family: 'Source Sans Pro';
 
 }
 
-#intro-info{
-  font-color: white;
-  min-height: 800px;
-  
-
-}
 #intro-info {
   font-color: white;
   min-height: 800px;
   font-size: 20px;
   top-margin:100px;
+  font-family: 'Source Sans Pro';
 
 }
 
 
 #funct-section{
   text-align:center;
-  background: #66a4e2;
-  min-height: 500px;
-  margin: 30px;
+  background: #4a8ef9;
+  min-height: 600px;
+  font-size:20px;
+  top-margin:180px;
+  font-family: 'Source Sans Pro';
 }
 
-#dl-section{
-  text-align:center;
-  background: #66a4e2;
+.dl-section{
+  margin: 50px;
+  background-color: white;
   min-height: 500px;
+  text-align: center;
+  font-size:20px;
+  font-family: 'Source Sans Pro';
 
 }
 
@@ -116,7 +127,7 @@ nav ul li a:hover {
 
 footer {
   padding: 20px;
-  background: #22313F;
+  background: #4a8ef9;
   color: white;
   line-height: 40px;
 }
@@ -136,42 +147,41 @@ footer a {
 #intro-info{
   margin:40px;
 }
-
-.square {
-  position: absolute;
-  margin: 20px 800px;
-  height: 140px;
-  width: 300px;
-  background-color: #555;
+#dl-button{
+  margin:50px;
 }
+
+
 
 textarea{
   width: 380px;
   height: 200px;
-  margin-top:170px;
-}
-@media only screen and (max-width: 367px) {
-
-  .contact-details {
-    line-height: normal;
-  }
-
+  margin-top:130px;
 }
 
-#dialogue {
-    max-width: 150px;
-      -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -ms-transition: all 0.4s ease; 
-  -o-transition: all 0.4s ease; 
-  transition: all 0.4s ease;
+.square {
+  position: absolute;
+  margin: -15px 300px;
+  height: 140px;
+  width: 300px;
+  background-color: #eee;
+  z-index:99;
 }
+
 
 .talk-bubble {
     position: absolute;
   width: 200px;
   height: auto;
   background-color: #eee;
+}
+
+.rcorners {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
 }
 
 </style>
